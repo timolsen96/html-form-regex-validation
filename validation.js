@@ -16,7 +16,7 @@ const patterns = {
 
 };
 
-// Validation function - 2 params. First is field from eventlistener, second is the regex pattern from the patterns above
+// Validation function - 2 params. First is field from eventlistener below, second is the regex pattern from the patterns above
 function validate(field, regex) {
     if(regex.test(field.value)) {
         field.className = "valid";
